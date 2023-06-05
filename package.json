@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "animate.css": "^4.1.1",
     "vue-social-sharing": "^3.0.4",
     "bootstrap": "^4.6.0",
     "core-js": "^3.6.5",
