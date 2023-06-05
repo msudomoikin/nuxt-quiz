@@ -27,7 +27,9 @@ export default {
     '~/plugins/vue-socialsharing',
     '~/plugins/get-img'
   ],
-
+  router: {
+    base: '/quiz/'
+  },
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 

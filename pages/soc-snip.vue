@@ -22,6 +22,11 @@ export default {
       return this.ratings.find(rating => rating.id === this.rating)
     }
   },
+  mounted() {
+this.$router.push({
+                path: '/',
+            });
+},
   methods: {
     getImgUrl(pic) {
       return require("../assets/" + pic + ".jpg");
@@ -34,7 +39,7 @@ export default {
         { hid: 'og:title', property: 'og:title', content: this.meta.name },
         { hid: 'og:description', property: 'og:description', content: this.meta.description },
         { hid: 'og:image', property: 'og:image', content: this.getImgUrl(this.rating) },
-        { hid: 'og:url', property: 'og:url', content: `https://matveymatvey.com/quiz/soc-snip?rating=${this.rating}` },
+        { hid: 'og:url', property: 'og:url', content: 'https://matveymatvey.com/quiz/' },
       ]
     }
   }
