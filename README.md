@@ -1,5 +1,7 @@
 # nuxt-quiz
 
+online demo at https://matveymatvey.com/quiz/
+
 ## Build Setup
 
 ```bash
